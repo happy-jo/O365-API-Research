@@ -3,11 +3,11 @@
 Resource Link: https://msdn.microsoft.com/en-us/office-365/get-started-with-office-365-management-apis 
 ^^^This is probably deprecated 
 
-$ClientID = "<Client ID>"  
+$ClientID = "Client ID"  
 
-$ClientSecret = "<Client Secret>"  
+$ClientSecret = "Client Secret"  
 
-$TenantGUID = "Tennt Guid>"  
+$TenantGUID = "Tenant Guid"  
 
 $tenantdomain = "Tenant Domain"    
 
