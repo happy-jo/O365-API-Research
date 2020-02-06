@@ -38,6 +38,7 @@ $myReport = (Invoke-WebRequest -UseBasicParsing -Headers $headerParams -Uri $url
 
 ###### Base URL:
 `https://manage.office.com/api/v1.0/$tenantGUID`
+
 (Example of complete URL: `https://manage.office.com/api/v1.0/$tenantGUID/activity/feed/subscriptions/content?contentType=Audit.SharePoint`)
 
 ###### Display availible office activity feeds: 
