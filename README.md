@@ -1,9 +1,12 @@
 # O365-API-ResearchOffice 365 Management API:
-*Please keep in mind that this is a reference for the information that is usefull to me, but there is much more availible on the google.*
+*Please keep in mind that this is a reference for the information that is useful to me, but there is much more available on the google.*
 
 Resource Link: [MSFT O365 Management API](https://msdn.microsoft.com/en-us/office-365/get-started-with-office-365-management-apis)
 
 *Microsoft Updates information all of the time so this link could be depricated.*
+## Pre-requisites:
+Create a Registered App in Azure AD. 
+[Walkthrough found here](https://docs.microsoft.com/en-us/office/office-365-management-api/get-started-with-office-365-management-apis)
 
 ## Required information for the call:
 ```
@@ -52,7 +55,7 @@ $myReport = (Invoke-WebRequest -UseBasicParsing -Headers $headerParams -Uri $url
 ###### Display services messages (lots of data):
 `/ServiceComms/Messages`
 
-###### Display availible content for (SharePoint Audit Logs): 
+###### Display available content for (SharePoint Audit Logs): 
 `Sharepoint Audit Logs: /activity/feed/subscriptions/content?contentType=Audit.SharePoint`
 
 (available content types can be found above under "display office activity feeds")
@@ -70,6 +73,6 @@ DLP.All
 ###### List notifications (Normally has nothing and based on feed): 
 `/activity/feed/subscriptions/notifications?contentType=Audit.SharePoint`
 
-###### Retrieve content from content Uri (note the single quote insead of the double for the URL): 
+###### Retrieve content from content Uri (note the single quote instead of the double for the URL): 
 `/activity/feed/audit/20180321155043789031580$20180321155043789031580$audit_sharepoint$Audit_SharePoint`
 
