@@ -1,7 +1,7 @@
 # O365-API-ResearchOffice 365 Management API: 
 
-Resource Link: [MSFT O365 Management API] (https://msdn.microsoft.com/en-us/office-365/get-started-with-office-365-management-apis)
-**Microsoft Updates information all of the time so this link could be depricated.**
+Resource Link: [MSFT O365 Management API](https://msdn.microsoft.com/en-us/office-365/get-started-with-office-365-management-apis)
+*Microsoft Updates information all of the time so this link could be depricated.*
 
 ## Required information for the call:
 ```
